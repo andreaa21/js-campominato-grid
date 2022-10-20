@@ -18,11 +18,26 @@ header span{
 }
 
 main{
-    height: calc(100vh - 160px);
+    height: calc(100vh - 140px);
     background-color: aquamarine;
+}
+.c-container{
+    height: 400px;
+    width: 400px;
+}
+.square{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+.square.color{
+    background-color: cornflowerblue;
 }
 
 
 footer{
-    height: 70px;
+    height: 50px;
 }
